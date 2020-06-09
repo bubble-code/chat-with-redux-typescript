@@ -17,7 +17,7 @@ interface SendMessageAction{
 }
 interface DeleteMessageAction{
     type: typeof DELETE_MESSAGE;
-    meta: { timestamp:number; };
+    meta: { timestamp:number };
 }
 
 export type ChatActionTypes = SendMessageAction | DeleteMessageAction;
